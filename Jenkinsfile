@@ -5,7 +5,7 @@ node {
   stage('SonarQube Analysis') {
     def scannerHome = tool 'SonarScanner';
     withSonarQubeEnv(https://wott.ngrok.io/) {
-      sh "${scannerHome}/bin/sonar-scanner"
+      sh "/Users/matthew.wottrich/Documents/sonar-scanner-4.7.0.2747-macosx/bin/sonar-scanner"
     }
   }
 }
