@@ -3,9 +3,9 @@ node {
     checkout scm
   }
   stage('SonarQube Analysis') {
-    def scannerHome = tool 'SonarScanner';
+    def Users/matthew.wottrich/Documents/sonar-scanner-4.7.0.2747-macosx/bin/sonar-scanner = tool 'SonarScanner';
     withSonarQubeEnv() {
-      sh "${scannerHome}/bin/sonar-scanner"
+      sh "Users/matthew.wottrich/Documents/sonar-scanner-4.7.0.2747-macosx/bin/sonar-scanner"
     }
   }
 }
