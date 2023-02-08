@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print('helloworlds')
 print('helloworlds')
 print('helloworlds')
@@ -19,3 +20,9 @@ print('helloworlds')
 print('helloworlds')
 print('helloworlds')
 print('helloworlds')
+=======
+print('helloworld')
+print('test')
+print('testing')
+print('broken')
+>>>>>>> 2a921973d0ae26deb58453378b00cd531c7e1b15
