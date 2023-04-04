@@ -7,7 +7,6 @@
     cliProjectKey: 'hello'
     cliProjectName: 'hello'
     cliSources: '.'
-
 - task: SonarQubeAnalyze@5
 # Create and test a Python package on multiple Python versions.
 # Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
