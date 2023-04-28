@@ -14,6 +14,7 @@ print('helloworlds')
 print('helloworlds')
 print('helloworlds')
 print('helloworlds')
+<<<<<<< HEAD
 print('helloworlds')
 print('helloworlds')
 print('helloworlds')
@@ -96,3 +97,5 @@ print('helloworlds')
 print('helloworlds')
 print('helloworlds')
 print('helloworlds')
+=======
+>>>>>>> 487620c8ca3d5fc28665bb1660dd44fd37e60594
