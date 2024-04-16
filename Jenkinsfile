@@ -5,7 +5,7 @@ node {
   stage('SonarQube Analysis') {
     def scannerHome = tool 'SonarScanner';
     withSonarQubeEnv() {
-      sh "${scannerHome}/bin/sonar-scanner -X sonar.pullrequest.key=pr_on_loctest sonar.pullrequest.branch=test sonar.pullrequest.base=linesofcodetest"
+      sh "${scannerHome}/bin/sonar-scanner -X"
     }
   }
 }
