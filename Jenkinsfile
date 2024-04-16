@@ -5,7 +5,7 @@ node {
   stage('SonarQube Analysis') {
     def scannerHome = tool 'SonarScanner';
     withSonarQubeEnv() {
-      sh "${scannerHome}/bin/sonar-scanner -X -Dsonar.pullrequest.key=my-PR-test -Dsonar.pullrequest.branch=linesofcodetest -Dsonar.pullrequest.base=test"
+      sh "${scannerHome}/bin/sonar-scanner -X -Dsonar.pullrequest.key=my-main-inline-PR-test -Dsonar.pullrequest.branch=test -Dsonar.pullrequest.base=main"
     }
   }
 }
