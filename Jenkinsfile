@@ -5,7 +5,7 @@ node {
   stage('SonarQube Analysis') {
     def scannerHome = tool 'SonarScanner';
     withSonarQubeEnv() {
-      sh "${scannerHome}/bin/sonar-scanner -X sonar.links.homepage='https://docs.sonarsource.com/sonarqube/display/PLUG/Plugin+Library/python'"
+      sh "${scannerHome}/bin/sonar-scanner -X sonar.links.homepage=https://docs.sonarsource.com/sonarqube/display/PLUG/Plugin+Library/python"
     }
   }
 }
